@@ -99,26 +99,6 @@ input[type=email] {
     height: 1000px;
    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .homeButton a {
     background-color: black;
     color: white;
@@ -232,22 +212,11 @@ input[type=email] {
     margin: auto;
 }
 
-
 .aboutMe2 {
 
     text-align: left;
 }
 
-
-
-#eyeCatcherBackground {
-    background-image: url(abstract.jpg);
-    height: 600px;
-    background-size: 2000px;
-    background-repeat: no-repeat;
-    background: opac;
-
-}
 #contact li{
 list-style: none;
 }
