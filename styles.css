@@ -1,0 +1,360 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.navbar {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+}
+
+.navbar a {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightgray;
+    border-radius: 2px;
+    padding: 1px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: white;
+}
+
+.formContainer {
+    background-color: #b0b0b0;
+    text-align: center;
+    height: 600px;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type=text]{
+    width: 55%;
+    position: relative;
+}
+input[type=tel],
+input[type=email] {
+    width:60%;
+    height: 20px;
+    text-align: center;
+}
+
+.feedBack input[type=text]{
+    width: 70%;
+    height: 200px;
+}
+
+
+
+.formSubmit {
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    background-color: transparent;
+}
+#void{
+    background-color: #f4f4f4ff ;
+}
+#void img{
+    height: 1000px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homeButton a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.homeButton {
+    text-align: center;
+
+    bottom: 50px;
+    position: relative;
+}
+
+.eyeCatcher {
+    background-color: lightgray;
+    height: 500px;
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-areas:
+        'Section1 Section2';
+
+    grid-template-columns: 2fr 1fr;
+
+}
+.aboutMeSection p{
+    text-indent: 30px;
+}
+.section1 {
+    height: 500px;
+   
+}
+
+.openingText {
+    padding: 50px;
+    margin-top: 150px;
+}
+
+.openingText h4 {
+    padding: 50px;
+
+}
+
+.section2 {
+
+    text-align: left;
+}
+
+.section2 img {
+    height: 500px;
+    background-color: white;
+    object-fit: fill;
+}
+
+/* About me page*/
+.aboutMeSection {
+    background-color: lightgray;
+    height: 700px;
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-areas:
+        'aboutMe1 aboutMe2';
+
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.aboutMe1 {
+    height: 700px;
+    background-color: aqua;
+    background-color: darkgrey;
+}
+/*about me 1 grid*/
+.grid1{
+    color: white;
+  
+}
+.top{
+    border-bottom: solid 2px;
+    width: 90%;
+    margin: auto;
+}
+.middle{
+    border-bottom: solid 2px;
+    width: 90%;
+    margin: auto;
+}
+.bottom{
+    border-bottom: solid 2px;
+    width: 90%;
+    margin: auto;
+}
+/*about me grid 2*/
+.grid2{
+    color: white;
+  
+}
+.top2{
+    border-bottom: solid 2px;
+    width: 90%;
+    margin: auto;
+}
+.middle2{
+    border-bottom: solid 2px;
+    width: 90%;
+    margin: auto;
+}
+.bottom2{
+    width: 90%;
+    margin: auto;
+}
+
+
+.aboutMe2 {
+
+    text-align: left;
+}
+
+
+
+#eyeCatcherBackground {
+    background-image: url(abstract.jpg);
+    height: 600px;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background: opac;
+
+}
+#contact li{
+list-style: none;
+}
+#formBackground {
+    background-image: url(abstract.jpg);
+    height: 300px;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    opacity: .5;
+}
+.aboutMeSection p,ul {
+    margin-bottom: 20px;
+}
+.meSections{
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    right: 50%;
+    bottom: 0px;
+    position: fixed;
+}
+
+.thankYouImg {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.thankYouImg img {
+    height: 400px;
+}
+
+@media (max-width:975px) {
+    .openingText h4 {
+        display: none;
+
+    }
+
+    .openingText {
+        padding: 50px;
+        margin-top: 50px;
+    }
+
+    .homeButton {
+        text-align: center;
+
+        bottom: 0px;
+        position: relative;
+    }
+
+    .aboutMeSection {
+        background-color: lightgray;
+        height: 800px;
+        margin-top: 40px;
+    gap: 10px;
+        display: grid;
+        grid-template-areas:
+           
+            'aboutMe2 aboutMe2'
+            'aboutMe1 aboutMe1';
+    
+    
+    
+    }
+.aboutMe1{
+    grid-area: aboutMe1;
+}
+.aboutMe2{
+    grid-area: aboutMe2;
+}
+    .navbar {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        padding: 5px;
+        border-top: solid 2px;
+        border-bottom: solid 2px;
+    }
+
+    .navbar a {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #contactPage {
+        display: none;
+    }
+    input[type=text]{
+        width: 80%;
+        position: relative;
+    }
+    input[type=tel],
+    input[type=email] {
+        width:90%;
+        height: 20px;
+        text-align: center;
+    }
+    
+    .feedBack input[type=text]{
+        width: 100%;
+        height: 200px;
+    }
+}
